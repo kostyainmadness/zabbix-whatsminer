@@ -3,6 +3,8 @@
 An external script and template for getting Whatsminer M3 metrics into Zabbix
 Script is using Cgminer API. https://github.com/tsileo/pycgminer
 
+I'm using Whatsminer M3 with low-power firmware, so all triggers setup for lower hashrate (~9 Th)
+
 # Supported metrics
 * Fan In & Out
 * GH/S (RT 5s)
@@ -80,4 +82,11 @@ What you can take from summary (if you want!):
 * Import whatsminer-zbx-template into zabbix
 * Add Whatsminer as Zabbix Host.
 * Link template to your ASICs
-		
+
+#Debug
+You cant test whatsminer-zbx-chk from CLI
+./whatsminer-zbx-chk %HOST% %metrics%
+
+Something like this
+./whatsminer-zbx-chk M3_hostname 'MHS av'
+
