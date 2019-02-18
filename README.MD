@@ -23,7 +23,8 @@ I'm using Whatsminer M3 with low-power firmware, so all triggers setup for lower
 * Elapsed <= 180 --> {HOST.NAME} Cgminer has just been restarted
 
 # Metrics from cgminer
-What you can take from summary (if you want!):    
+What you can take from summary (if you want!):
+'''
 "SUMMARY": [
         {
             "Accepted": 42328,
@@ -70,7 +71,7 @@ What you can take from summary (if you want!):
             "freq_max": 485,
             "freq_min": 455
         }
-		
+'''		
 # Requirements
 * Python 2 or 3
 * Python [Requests](https://pypi.python.org/pypi/requests)
@@ -84,10 +85,12 @@ What you can take from summary (if you want!):
 * Add Whatsminer as Zabbix Host.
 * Link template to your ASICs
 
-#Debug
+# Debug
 You cant test whatsminer-zbx-chk from CLI
+
 ./whatsminer-zbx-chk %HOST% %metrics%
 
-Something like this
+Something like this:
+
 ./whatsminer-zbx-chk M3_hostname 'MHS av'
 
