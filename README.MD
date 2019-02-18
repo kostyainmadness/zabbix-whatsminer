@@ -24,8 +24,7 @@ I'm using Whatsminer M3 with low-power firmware, so all triggers setup for lower
 
 # Metrics from cgminer
 What you can take from summary (if you want!):
-'''
-"SUMMARY": [
+'''"SUMMARY": [
         {
             "Accepted": 42328,
             "Best Share": 258988397,
@@ -70,8 +69,8 @@ What you can take from summary (if you want!):
             "freq_avg": 471,
             "freq_max": 485,
             "freq_min": 455
-        }
-'''		
+        }'''	
+        
 # Requirements
 * Python 2 or 3
 * Python [Requests](https://pypi.python.org/pypi/requests)
