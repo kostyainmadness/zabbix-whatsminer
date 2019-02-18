@@ -93,3 +93,7 @@ Something like this:
 
 ./whatsminer-zbx-chk M3_hostname 'MHS av'
 
+# Donate
+If you want :)
+BTC 1KMNPXdZ7yFMgQvBUvv1koz3yLBfHCgZv2
+
