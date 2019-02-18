@@ -1,6 +1,7 @@
 # zabbix-whatsminer
 
-An external script and template for getting Whatsminer M3 metrics into Zabbix
+An external script and template for getting Whatsminer M3 metrics into Zabbix.
+
 Script is using Cgminer API. https://github.com/tsileo/pycgminer
 
 I'm using Whatsminer M3 with low-power firmware, so all triggers setup for lower hashrate (~9 Th)
