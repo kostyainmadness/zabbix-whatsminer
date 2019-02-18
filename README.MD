@@ -95,5 +95,8 @@ Something like this:
 
 # Donate
 If you want :)
-BTC 1KMNPXdZ7yFMgQvBUvv1koz3yLBfHCgZv2
+
+BTC: 1KMNPXdZ7yFMgQvBUvv1koz3yLBfHCgZv2
+
+Thank you!
 
